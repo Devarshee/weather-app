@@ -1,7 +1,7 @@
  const request=require('request');
  const yargs=require('yargs');
- const geocode=require('./geocode/geocode');
- const weather=require('./weather/weather');
+ const geocode=require('/geocode');
+ const weather=require('/weather');
 
  const argv=yargs
      .option({
